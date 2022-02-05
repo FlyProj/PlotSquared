@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v2.5.0
         with:
           distribution: temurin
-          java-version: 17
+          java-version: 16
       - name: Clean Build
         run: ./gradlew clean build
       - name: capture build artifacts
